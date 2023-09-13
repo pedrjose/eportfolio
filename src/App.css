@@ -1,42 +1,158 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #100f24;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar2 {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #edeada;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.card {
-  padding: 2em;
+.under {
+  width: 100%;
+  height: 5rem;
+  background-color: #100f24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.read-the-docs {
-  color: #888;
+.section-settings {
+  height: 100vh;
+  background-color: #edeada;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.section2-settings {
+  height: 100vh;
+  background-color: #100f24;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.h1-settings {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #100f24;
+  font-size: 4.4rem;
+  margin-top: -0.7rem;
+  margin-bottom: -1rem;
+  font-weight: 900;
+  line-height: 1.1;
+  max-inline-size: 15ch;
+  text-shadow: 0.04em 0.04em 0 hsla(0, 0%, 100%, 0.8);
+}
+
+.h2-settings {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #100f24;
+  text-shadow: 0.05em 0.05em 0 hsla(0, 0%, 100%, 0.8);
+}
+.stack-img {
+  height: 3rem;
+  border-radius: 3px;
+}
+
+.stack-img:hover {
+  transform: scale(1.3);
+}
+
+.my-medias-img {
+  height: 2rem;
+  border-radius: 3px;
+}
+
+.my-medias-img:hover {
+  opacity: 0.5;
+}
+
+.my-medias {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.my-medias-projects {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+
+.my-medias-projects-img {
+  height: 3rem;
+  border-radius: 3px;
+}
+
+.my-medias-projects-img:hover {
+  transform: scale(1.5);
+  opacity: 0.5;
+}
+
+.stacks-box {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.img-button {
+  height: 2rem;
+}
+
+.img-button:hover {
+  opacity: 0.5;
+}
+
+.reset-button-style {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.email-img {
+  height: 1rem;
 }
